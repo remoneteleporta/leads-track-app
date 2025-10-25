@@ -6,9 +6,7 @@ import { getDatabase,
          remove } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-database.js"
 
 const firebaseConfig = {
-    apiKey: process.env.FIREBASE_API_KEY,
-    authDomain: "leads-tracker-app-e1436.firebaseapp.com",
-    databaseURL: process.env.DATABASE_URL
+    databaseURL: "https://leads-tracker-app-e1436-default-rtdb.asia-southeast1.firebasedatabase.app/"
 }
 
 const app = initializeApp(firebaseConfig)
